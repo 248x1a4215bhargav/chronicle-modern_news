@@ -1,20 +1,34 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+Chronicle: Modern News & Notebook
+A refined, responsive editorial news reader featuring live multi-category feeds, reader mode with audio narration, personal bookmarks, and dedicated note-taking.
 
-# Run and deploy your AI Studio app
+Chronicle brings back the elegance of classic print journalism merged with modern Web technology. Built with React, TypeScript, and Tailwind CSS, Chronicle allows readers to follow breaking RSS news across six major categories, listen to article audio narrations, bookmark stories, and maintain personal notes and tags—all stored safely in local browser storage.
 
-This contains everything you need to run your app locally.
+Key Features
+📰 Multi-Category Live News Feeds: Real-time RSS integration across General, Technology, Business, Science, Entertainment, and Sports.
 
-View your app in AI Studio: https://ai.studio/apps/30c942c8-9aca-472d-a65c-ebe15893a1ab
+🎧 Audio Reader Mode: Built-in Web Speech API integration that narrates articles aloud with playback controls.
 
-## Run Locally
+🔖 Bookmarks & Personal Notebook: Save dispatches for offline reference and attach custom research notes and tags.
 
-**Prerequisites:**  Node.js
+🔍 Search & Filtering: Search headlines, sources, and journalists, or sort dispatches by date or read time.
 
+🌓 Adaptive Light & Dark Themes: Curated editorial design supporting system preferences and dark mode toggles.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+📥 Export Capabilities: Export saved dispatches, notes, and research tags directly to a structured Markdown document (.md) or copy them to the clipboard.
+
+🔒 Privacy-First Architecture: All personal annotations, tags, and bookmark data are retained strictly within local storage.
+
+Tech Stack
+Framework: React 19
+
+Build Tool: Vite 8
+
+Language: TypeScript 7
+
+Styling: Tailwind CSS v4
+
+Icons: Lucide React
+
+Typography: Playfair Display (Serif) & Plus Jakarta Sans (Sans-Serif)
+
+AI / API Capabilities: @google/genai (Server-side Gemini API integration)
