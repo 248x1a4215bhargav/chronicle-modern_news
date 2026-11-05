@@ -1,0 +1,6 @@
+{
+  "name": "Chronicle: Modern News & Notebook",
+  "description": "A refined, responsive editorial news reader featuring live multi-category feeds, reader mode with audio narration, personal bookmarks, and dedicated note-taking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
