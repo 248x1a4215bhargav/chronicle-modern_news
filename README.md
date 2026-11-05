@@ -1,9 +1,11 @@
-Chronicle: Modern News & Notebook
+CHRONICLE
+
 A refined, responsive editorial news reader featuring live multi-category feeds, reader mode with audio narration, personal bookmarks, and dedicated note-taking.
 
 Chronicle brings back the elegance of classic print journalism merged with modern Web technology. Built with React, TypeScript, and Tailwind CSS, Chronicle allows readers to follow breaking RSS news across six major categories, listen to article audio narrations, bookmark stories, and maintain personal notes and tags—all stored safely in local browser storage.
 
 Key Features
+
 📰 Multi-Category Live News Feeds: Real-time RSS integration across General, Technology, Business, Science, Entertainment, and Sports.
 
 🎧 Audio Reader Mode: Built-in Web Speech API integration that narrates articles aloud with playback controls.
@@ -19,6 +21,7 @@ Key Features
 🔒 Privacy-First Architecture: All personal annotations, tags, and bookmark data are retained strictly within local storage.
 
 Tech Stack
+
 Framework: React 19
 
 Build Tool: Vite 8
